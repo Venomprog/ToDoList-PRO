@@ -11,6 +11,7 @@ function addToDo(text){
     };
 
     todos.push(todo);
+    inputNode.value = '';
 }
 
 function deleteToDo(id){
@@ -46,7 +47,7 @@ function render(){
         html+= `
             <div>
                 ${todo.text}
-                <button data-id='${todo.id}'>Сделано</button>
+                <button data-id='${todo.id}' class='done-btn'>Сделано</button>
             </div>
         `;
 

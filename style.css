@@ -3,11 +3,49 @@
 }
 
 .container {
-    max-width: 80%;
+    max-width: 500px;
     margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .js-todos{
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+}
+.js-input {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+.js-btn {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.js-todos {
+    
+    max-width: 80%;
+    margin: 0 auto;
+    
+    margin-top: 30px;
+}
+
+.done-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    transition:  all 0.5s;
+    margin-top: 10px;
+}
+
+.done-btn:hover{
+    background-color: rgb(18, 220, 18);
+    color: white;
 }
