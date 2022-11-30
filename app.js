@@ -16,7 +16,7 @@ function addToDo(text){
 
 function deleteToDo(id){
     todos.forEach(todo => {
-        if (todo.id == id){
+        if (todo.id == id){ //Сравнивает переданное айди с айди элементами списка задач и переводит в "сделано"
             todo.done = true;
         }
     });
