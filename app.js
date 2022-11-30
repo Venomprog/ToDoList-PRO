@@ -4,7 +4,7 @@ const inputNode = document.querySelector('.js-input');
 const btnNode = document.querySelector('.js-btn');
 
 function addToDo(text){
-    const todo = {
+    const todo = { //Создаёт объект(задачу) и добавляет объект в массив таких же объектов(задач)
         text,
         done: false,
         id: `${Math.random()}`
