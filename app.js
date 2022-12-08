@@ -41,7 +41,7 @@ function render(){
     let html = ``;
     todos.forEach(todo =>{
         if (todo.done){
-            return;   //Если задача выполнена, то она не выводится!!
+            return;   //Если задача выполнена, то она не выводится!!!
         }
 
         html+= `
