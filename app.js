@@ -28,7 +28,7 @@ btnNode.addEventListener('click', () =>{
 });
 
 todosNode.addEventListener('click', (event) => {
-    if (event.target.tagName != 'BUTTON'){ //Если клик не по кнопке, то ничего не происходит!!
+    if (event.target.tagName != 'BUTTON'){ //Если клик не по кнопке, то ничего не происходит!
         return;
     }
     const id = event.target.dataset.id;
@@ -41,7 +41,7 @@ function render(){
     let html = ``;
     todos.forEach(todo =>{
         if (todo.done){
-            return;   //Если задача выполнена, то она не выводится!!!!
+            return;   //Если задача выполнена, то она не выводится!
         }
 
         html+= `
