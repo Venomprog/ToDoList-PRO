@@ -28,11 +28,11 @@ btnNode.addEventListener('click', () =>{
 });
 
 todosNode.addEventListener('click', (event) => {
-    if (event.target.tagName != 'BUTTON'){ //Если клик не по кнопке, то ничего не происходит!!
+    if (event.target.tagName != 'BUTTON'){ //Если клик не по кнопке, то ничего не происходит!
         return;
     }
     const id = event.target.dataset.id;
-    deleteToDo(id);
+    deleteToDo(id);  //вызов функции с передачей айдишника
     render();
 });
 
