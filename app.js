@@ -32,7 +32,7 @@ todosNode.addEventListener('click', (event) => {
         return;
     }
     const id = event.target.dataset.id;
-    deleteToDo(id);  //вызов функции с передачей айдишника
+    deleteToDo(id);  //вызов функции с передачей айдишника!
     render();
 });
 
