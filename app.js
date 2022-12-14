@@ -22,7 +22,7 @@ function deleteToDo(id){
     });
 }
 btnNode.addEventListener('click', () =>{
-    let text = inputNode.value;  //При клике добавить задачу считывает текст с инпута и передаёт в функцию!
+    let text = inputNode.value;  //При клике добавить задачу считывает текст с инпута и передаёт в функцию!!
     addToDo(text);
     render();
 });
